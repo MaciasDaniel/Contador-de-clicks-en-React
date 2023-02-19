@@ -1,0 +1,59 @@
+.App{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #202020;
+}
+
+.container_titulo{
+    color: white;
+    text-transform: uppercase;
+}
+
+.container_logo{
+    margin: 20px 0;
+}
+
+img{
+    width: 300px;
+}
+
+button{
+    width: 200px;
+    height: 60px;
+    font-size: 1.5rem;
+    margin: 5px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(.9);
+}
+
+.boton_click{
+    background-color: #338AFF;
+}
+
+.boton_reiniciar{
+    background-color: red;
+}
+
+.container_contador{
+    width: 200px;
+    height: 200px;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding: 10px;
+}
